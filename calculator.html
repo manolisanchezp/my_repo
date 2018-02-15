@@ -6,11 +6,18 @@ var num = document.getElementById("n1");
 num.value = Math.pow(num.value, 3);
 }
 </script>
+<script type="text/javascript">
+function cuartaPotencia() {
+var num = document.getElementById("n1");
+num.value = Math.pow(num.value, 4);
+}
+</script>
 </head>
 <body>
 <h1>Calculadora de Manuela Sanchez Peñafiel</h1>
 Number:
-<input type="text" id="n1"><p>
+<input type="text" id="n1"><br><br>
 <button onclick="cube()"> x^3 </button>
+<button onclick="cuartaPotencia()"> x^4 </button>
 </body>
 </html>
